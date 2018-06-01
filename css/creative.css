@@ -8,16 +8,6 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
-hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: #F05F40;
-}
-
-hr.light {
-  border-color: #fff;
-}
-
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
@@ -36,10 +26,6 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.bg-primary {
-  background-color: #F05F40 !important;
 }
 
 .bg-dark {
@@ -115,7 +101,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: #ffbb33 !important;
   background-color: transparent;
 }
 
@@ -147,18 +133,18 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    border-bottom: 3px solid rgba(33, 37, 41, 0.1);
+    background-color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #f05f40;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -234,7 +220,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -281,9 +267,6 @@ header.masthead p {
   }
 }
 
-.text-primary {
-  color: #F05F40 !important;
-}
 
 .btn {
   font-weight: 700;
@@ -295,6 +278,11 @@ header.masthead p {
 
 .btn-xl {
   padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
 }
 
 .btn-primary {
